@@ -1,0 +1,24 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      authentication-database: 'admin'
+      username: 'shadowdb'
+      password: '1234'
+      database: 'shadow_users'
+
+  application:
+    name: shadow-user-service
+
+
+server:
+  error:
+    include-stacktrace: NEVER
+
+  port: 8081
+
+  tomcat:
+    accesslog:
+      directory: logs
+      enabled: true

@@ -31,7 +31,7 @@
         </Root>
 
         <!-- LOG "io.lord.shadow.*" at TRACE level -->
-        <Logger name="io.lord.shadow" level="trace"></Logger>
+        <Logger name="io.lord.shadow" level="debug"/>
     </Loggers>
 
 </Configuration>
